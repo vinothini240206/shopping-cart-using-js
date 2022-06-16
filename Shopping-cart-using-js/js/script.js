@@ -44,6 +44,8 @@ function addToCartClicked (event) {
   updateCartPrice()
 }
 
+// To alert the user already it has been added to cart
+
 function addItemToCart (price, imageSrc) {
   var productRow = document.createElement('div');
   productRow.classList.add('product-row');
@@ -141,4 +143,3 @@ function purchaseBtnClicked () {
 }
 // end of purchase items
 
-//alert user if cart is empty
